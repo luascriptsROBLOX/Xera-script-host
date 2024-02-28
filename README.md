@@ -60,6 +60,7 @@ This code snippet will create a new file with the text "hello, from CloudBin api
 
 ---
 
-* **Headlined**, project developer & front-end designer
+* **headlined**, project developer & front-end designer
 * **mido_x312**, back-end & API developer
+* **userhater**, CSS animations
 * **imanewma__n**, ideaist
