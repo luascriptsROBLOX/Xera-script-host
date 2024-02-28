@@ -3,5 +3,10 @@ Hello!
 Thank you for using Cloudbin.
 -- This project was made for personal use, but I wanted to make this public!
 
+Special thanks to:
+  * mido_x312
+  * xyba1337
+  * imanewma__n
+
 Sincerely,
   Suno :)
