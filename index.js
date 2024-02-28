@@ -6,40 +6,15 @@ const path = require('path');
 const app = express();
 const PORT = 8000;
 
-let lastPostTime = Date.now();
-let postCount = 0;
-
 app.use(express.static('public'));
 app.use(bodyParser.text());
 
-app.use('/scripts', (req, res, next) => {
-  const now = Date.now();
-  const elapsedTime = now - lastPostTime;
-
-  if (elapsedTime < 5000) {
-    return res.status(429).send('Rate limit exceeded. Please try again later.');
-  }
-
-  if (elapsedTime >= 120000) {
-    lastPostTime = now;
-    postCount = 0;
-  }
-
-  if (postCount >= 100) {
-    return res.status(429).send('Rate limit exceeded. Please try again later.');
-  }
-
-  lastPostTime = now;
-  postCount++;
-  next();
-});
-
-app.post('/scripts', (req, res) => {
+app.post('/raw', (req, res) => {
   const codeContent = req.body;
 
   if (codeContent.trim() !== "") {
     const fileName = generateRandomFileName();
-    const filePath = path.join(__dirname, 'public', 'scripts', `${fileName}.html`);
+    const filePath = path.join(__dirname, 'public', 'raw', `${fileName}.html`);
 
     fs.writeFile(filePath, codeContent, (err) => {
       if (err) {

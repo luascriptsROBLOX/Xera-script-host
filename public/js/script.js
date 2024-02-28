@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (messageContent.trim() !== "") {
             const fileName = generateRandomFileName();
 
-            fetch('/scripts', {
+            fetch('/raw', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'text/plain',
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
             })
             .then(response => response.text())
             .then(message => {
-                window.location.href = `/scripts/${message}`;
+                window.location.href = `/raw/${message}`;
             })
             .catch(error => {
                 console.error('Error:', error);
