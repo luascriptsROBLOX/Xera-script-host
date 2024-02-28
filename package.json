@@ -1,0 +1,25 @@
+{
+  "name": "cloudbin",
+  "version": "1.0.0",
+  "description": "Login-free file sharing service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hello-n-bye/cloud-bin.git"
+  },
+  "author": "Headlined",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hello-n-bye/cloud-bin/issues"
+  },
+  "homepage": "https://github.com/hello-n-bye/cloud-bin#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
