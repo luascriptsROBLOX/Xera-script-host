@@ -1,6 +1,6 @@
 # Cloudbin 🌩️
 
-Welcome to Cloudbin, a sleek, efficient, and user-friendly platform designed to revolutionize file sharing.
+Welcome to Cloudbin, a sleek, efficient, and user-friendly platform designed to help you with file sharing.
 * Our platform is designed to be easily navigable, simplistic, and sleek, making it a perfect choice for those seeking a fast and hassle-free way to share code.
 
 ## Features
@@ -14,7 +14,6 @@ Welcome to Cloudbin, a sleek, efficient, and user-friendly platform designed to 
 
 - **Simplicity**: 🎯 Our intuitive interface ensures that anyone can start sharing files in minutes.
 - **Speed**: Leverage the power of the cloud to share files faster than ever before.
-- **Security**: With no login required, our platform is designed to keep your files safe.
 - **Versatility**: Share anything from documents to large datasets with ease.
 
 ## Getting Started
