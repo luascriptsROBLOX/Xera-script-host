@@ -48,7 +48,7 @@ if response.status_code == 200:
     response_text = response.content.decode('utf-8')
 
     # If it succeeds
-    print(f"File made @ https://new-cloudbin.koyeb.app/scripts/{response_text}
+    print(f"File made @ https://new-cloudbin.koyeb.app/scripts/{response_text}")
   except Exception as e:
     print(f"Error decoding response content: {e}")
 else:
