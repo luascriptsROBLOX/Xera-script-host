@@ -31,7 +31,7 @@ import requests
 code_content = "hello, from CloudBin api!"
 
 # Set the URL to Cloudbin's script endpoint
-url = 'https://new-cloudbin.koyeb.app/scripts'
+url = 'https://new-cloudbin.koyeb.app/raw'
 
 # Specify the content type as plain text
 headers = {
@@ -47,7 +47,7 @@ if response.status_code == 200:
     response_text = response.content.decode('utf-8')
 
     # If it succeeds
-    print(f"File made @ https://new-cloudbin.koyeb.app/scripts/{response_text}")
+    print(f"File made @ https://new-cloudbin.koyeb.app/raw/{response_text}")
   except Exception as e:
     print(f"Error decoding response content: {e}")
 else:
