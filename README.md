@@ -63,3 +63,6 @@ This code snippet will create a new file with the text "hello, from CloudBin api
 * **mido_x312**, back-end & API developer
 * **userhater**, CSS animations
 * **imanewma__n**, ideaist
+
+## Extra Credits
+* **xyba1337**, fixing XSS exploits
