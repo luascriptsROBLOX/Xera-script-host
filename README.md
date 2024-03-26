@@ -1,3 +1,12 @@
+# Archived Project 🚧
+This project is no longer being developed.
+> The website and current build will still exist, and the code available for free-use.
+
+## Why Was Cloudbin Archived?
+This was mainly _a learners project_, and the motivation has left.
+
+---
+
 # Cloudbin 🌩️
 
 Welcome to Cloudbin, a sleek, efficient, and user-friendly platform designed to help you with file sharing.
