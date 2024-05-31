@@ -3,6 +3,9 @@ Hello!
 Thank you for using Cloudbin.
 -- This project was made for personal use, but I wanted to make this public!
 
+Your visit means a lot to me. If you like this project, feel free to star it over on GitHub!
+  * github.com/hello-n-bye/cloud-bin
+
 Special thanks to:
   * mido_x312
   * xyba1337
