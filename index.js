@@ -9,6 +9,13 @@ const PORT = 8000;
 app.use(express.static('public'));
 app.use(bodyParser.text());
 
+// Custom page for Starry! 💫
+app.get('/starry', (req, res) => {
+	const content = fs.readFileSync(path.join(__dirname, 'starry.lua'), 'utf8');
+	
+	res.send(content);
+})
+
 app.post('/raw', (req, res) => {
   const codeContent = req.body;
 
