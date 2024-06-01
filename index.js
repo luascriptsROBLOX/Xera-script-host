@@ -28,7 +28,6 @@ app.post('/raw', (req, res) => {
         console.error(err);
         res.status(500).send('Internal Server Error');
       } else {
-        console.log(`File ${fileName}.txt created successfully.`);
         return res.send(`${fileName}.txt`);
       }
     });
