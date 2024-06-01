@@ -12,7 +12,6 @@ app.use(bodyParser.text());
 // Custom page for Starry! 💫
 app.get('/starry', (req, res) => {
   const content = fs.readFileSync(path.join(__dirname, 'starry.lua'), 'utf8');
-  console.log(content);
   res.send(content);
 })
 
